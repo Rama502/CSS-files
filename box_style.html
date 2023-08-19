@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>box_style</title>
+	<style type="text/css">
+		div{
+			height: 300px;
+			width: 300px;
+			background-color: red;
+			margin-bottom: 30px;
+			margin-left: 10px;
+		}
+		/*class selector*/
+		.b{
+			padding-left: 100px;
+			padding-top: 130px;
+		}
+		.c_box{
+			height: 300px;
+			width: 300px;
+			background-color: green;
+			margin-bottom: 30px;
+			margin-left: 10px;
+			padding-left: 100px;
+			padding-top: 130px;
+			
+		}
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box; 
+		}
+	</style>
+</head>
+<body>
+    <div style="height: 900px;width: 300px;background-color: white"> 
+    	<div >
+    		<p class="b">Rama</p>
+    	</div>
+    	<div class="c_box"> Nandu</div>
+    </div>
+</body>
+</html>
